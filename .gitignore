@@ -12,4 +12,5 @@ build/
 config/
 rollup/
 static/
+data/
 release/
