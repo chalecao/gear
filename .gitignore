@@ -8,7 +8,6 @@ test/e2e/reports
 selenium-debug.log
 lib/
 src/
-build/
 config/
 rollup/
 static/
