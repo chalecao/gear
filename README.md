@@ -61,6 +61,8 @@ click@searchTerm(form-termId)>searchTable
 ## 使用方法
 可以参考dist目录中标准示例，默认不开启编辑模式，开启编辑模式方式：按住ctrl键 + body上点击鼠标左键，打开编辑模式的快捷键支持自定义。
 
+## todo list
+1. 单页系统由于Gear本身占用了HASH，所以SPA的支持采用HASH后面加query参数，这样需要Gear类处理这些参数
 
 ## 特性
 1. 新增Cache元素类型，用于处理请求
@@ -68,5 +70,6 @@ click@searchTerm(form-termId)>searchTable
 3. 新增函数类型，函数目前支持For和If，可以用来处理一些逻辑。
 4. 嵌套层级结构支持。
 5. 页面级别组件和通用组件支持。可以直接被引用。
+6. 增加单页（SPA）支持, 在页面组件栏目中可以创建多个page类型页面
 
 
