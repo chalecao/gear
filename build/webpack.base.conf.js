@@ -12,7 +12,10 @@ function resolve(dir) {
 module.exports = {
     entry: {
         app: './src/main.js',
-        vendors: ['jquery', 'bootstrap', 'modal', 'html2canvas', 'filesaver']
+        vendors: ['jquery', 'bootstrap', 'modal',
+            // 'html2canvas',
+            'filesaver'
+        ]
     },
 
     output: {
@@ -29,7 +32,7 @@ module.exports = {
             jquery: path.resolve(__dirname, '../static/js/jquery.min.js'),
             bootstrap: path.resolve(__dirname, '../static/js/bootstrap.min.js'),
             modal: path.resolve(__dirname, '../static/js/modal.js'),
-            html2canvas: path.resolve(__dirname, '../static/js/html2canvas.js'),
+            // html2canvas: path.resolve(__dirname, '../static/js/html2canvas.js'),
             filesaver: path.resolve(__dirname, '../static/js/filesaver.js')
         }
     },
