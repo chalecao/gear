@@ -161,7 +161,7 @@
                     listData: [{
                         label: "URL",
                         type: "input",
-                        value: "../data/gear_storage.gear",
+                        value: "./data/gear_storage.gear",
                         key: "name",
                         tip: "导入项目模型数据"
                     }]
