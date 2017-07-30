@@ -1,0 +1,53 @@
+{
+  "name": "edu-mooc-lib",
+  "authors": [
+    "mooc <mooc@corp.netease.com>"
+  ],
+  "version": "0.0.1",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "js/lib"
+  ],
+  "dependencies": {
+    "regularjs": "0.5.1",
+    "es5-shim": "4.5.9",
+    "es6-shim": "0.35.3",
+    "nej": "git+https://g.hz.netease.com/edu-mooc-frontend/edu-front-nej.git#master",
+    "html5shiv": "^3.7.3",
+    "component-loading": "git+https://g.hz.netease.com/edu-frontend/component-loading.git#0.0.41",
+    "component-base": "git+https://g.hz.netease.com/edu-frontend/component-base.git#0.0.42",
+    "component-slider": "git+https://g.hz.netease.com/edu-frontend/component-slider.git#0.0.48",
+    "cache-base": "git+https://g.hz.netease.com/edu-frontend/cache-base.git#0.0.24",
+    "res-base": "git+https://g.hz.netease.com/edu-frontend/res-base.git#0.0.22",
+    "component-share": "git+https://g.hz.netease.com/edu-mooc-frontend/component-share.git#master",
+    "module-order": "git+https://g.hz.netease.com/edu-frontend/module-order.git#feature/mooc_kaoyan_zad_20170524",
+    "cache-order": "git+https://g.hz.netease.com/edu-frontend/cache-order.git#feature/mooc_kaoyan_zad_20170524",
+    "component-validation": "git+https://g.hz.netease.com/edu-frontend/component-validation.git#0.0.53",
+    "component-video-player": "git+https://g.hz.netease.com/edu-frontend/component-video-player.git#0.0.38",
+    "edu-front-util": "git+https://g.hz.netease.com/edu-frontend/edu-front-util.git#0.3.39"
+  },
+  "devDependencies": {},
+  "resolutions": {
+    "nej": "master",
+    "res-base": "0.0.22",
+    "component-base": "0.0.47",
+    "cache-base": "0.0.27",
+    "component-editor": "0.1.34",
+    "component-upload": "0.0.53",
+    "edu-front-util": "0.3.38",
+    "component-notify": "0.0.48",
+    "component-button": "0.0.48",
+    "component-modal": "0.0.50",
+    "component-drag-drop": "0.0.48",
+    "component-validation": "0.0.51",
+    "component-input": "0.0.63",
+    "component-dropdown": "0.0.63",
+    "component-check": "0.0.59",
+    "cache-order": "feature/mooc_kaoyan_zad_20170524",
+    "cache-mobile": "0.0.32"
+  }
+}
