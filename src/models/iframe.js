@@ -4,16 +4,15 @@
 import Element from './element'
 const SPECIAL = {
     src: '',
-    target: '_top',
-    targetUrl: ''
+    frameborder:0
 }
-export default class Image extends Element {
+export default class Iframe extends Element {
     constructor(eleData) {
         super(eleData)
         if (this.other.kid.match("element-")) {
-            this.other.kid = "img-" + this.index;
+            this.other.kid = "iframe-" + this.index;
         }
-        this.other.type = this.other.type || "image";
+        this.other.type = this.other.type || "iframe";
         this.special = Object.assign(this.special || {}, SPECIAL, eleData.special)
     }
     static map2element(prop) {

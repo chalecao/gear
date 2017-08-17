@@ -64,6 +64,10 @@ const elementModule = {
             icon: 'glyphicon-compressed',
             type: 'action',
             name: '操作'
+        }, {
+            icon: 'glyphicon-compressed',
+            type: 'iframe',
+            name: '内嵌'
         }]
     },
     mutations: {
